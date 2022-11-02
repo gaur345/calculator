@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4071ED;
+}
+.header{
+    height: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 6px ;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: center;
+}
+.header .sub-header{
+    width: 98%;
+    height: auto;
+}
+.header .sub-header .heading{
+    padding: 10px;
+}
+.header .sub-header .heading .logo h1{
+    font-size: 22px;
+    font-weight: 550;
+    font-family: 'Poppins', sans-serif;
+}
+.header .sub-header .heading .logo h1::after{
+    content: " ";
+    display: inline-block;
+    width: 4%;
+    height: 3.5px;
+    border-radius: 5px;
+    background-color: #4071ED;
+    position: relative;
+    top: 11px;
+    right: 130px;
+}
+.header .sub-header .heading .form{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+.header .sub-header .heading .form h5{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(65, 63, 63);
+}
+.header .sub-header .heading .form .form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.header .sub-header .heading .form .form-inner .form-one{
+    margin: 5px;
+    padding: 5px;
+    width: 31%;
+}
+.header .sub-header .heading .form .form-inner .form-one label{
+    margin: 8px 0;
+    font-size: 15px;
+    color: rgb(26, 17, 17);
+    font-weight: 500;
+}
+.header .sub-header .heading .form .form-inner .form-one input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+#name-one{
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+}
+.header .sub-header .heading .form .form-inner .form-one input:focus{
+    background: #000;
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+.header .sub-header .heading .form .form-inner .form-one input::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+}
+.header .sub-header a{
+    text-decoration: none;
+    padding: 15px;
+    position: relative;
+    bottom: 12px;
+}
+.header .sub-header a .btn{
+    padding: 10px 25px;
+    margin: 3px 0;
+    font-size: 17px;
+    background-color: #4071ED;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+    transition: all 0.2s ease-in-out;
+}
+.header .sub-header a .btn:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.header .sub-header a .btn .fa-solid{
+    margin: 3px;
+}
